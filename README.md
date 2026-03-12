@@ -1,6 +1,10 @@
 # Manager-of-Danbooru-Artists
 Localize, store, and manage prompts of artists
 
+# UI 介绍
+
+# UI Introduction
+
 <img width="895" height="528" alt="e4472d3cdce79008457e9e9df307f64b" src="https://github.com/user-attachments/assets/c0906ba9-6f95-4c38-927f-89eaa38f2d0e" />
 
 在上方，设置界面，选择图片数据的来源文件夹，其中png文件的名称应该为(.+)_\d{5}_\.png（前面为画师名），以及选择本程序的资源储存目录（建议单独建一个文件夹），还有ui界面的调节也在这个面板。
@@ -12,6 +16,18 @@ At the top, the settings interface, select the source folder of the image data, 
 在导入图片数据后，左侧为画师列表；中间上部为画师名下的不同画作与备注，中部为预览图，下部为加入对比的图片信息；右侧上部为已选画师清单，中部为常用画师串的选择，下部为画师串导出或导入的文本框。
 
 After importing image data, the left side shows the list of artists; the upper middle shows different artworks and notes under each artist's name, the middle shows preview images, and the lower middle shows the information of images added for comparison; the upper right shows the list of selected artists, the middle right shows the selection of frequently used artist strings, and the lower right is the text box for exporting or importing artist strings.
+
+# 附录 1：在正式开始之前的建议流程
+
+# Appendix 1: Recommended procedure before officially starting
+
+comfyui固定提示词、参数与随机种子生成以画师名开头的png文件，然后装一个文件夹作为来源文件夹。
+
+ComfyUI fixed prompts, parameters, and random seed generate PNG files starting with the artist's name, then set up a folder as the source folder.
+
+使用时先设置好数据库文件夹在那里，这样才能保存数据。（ui大小、画师目录、图片数据等）
+
+When using, first set the database folder location, so that data can be saved (UI size, artist directory, image data, etc.).
 
 # 功能一：
 # Function 1:
@@ -64,9 +80,9 @@ After parsing the list of artists below, if there are artist names not in the da
 The second button checks whether there are duplicate images under the same artist's name in the database. If there are, you can choose to delete the redundant images, keeping only one.
 
 
-附录：各按键的翻译
+附录 2：各按键的翻译
 
-Appendix: Translations of Each Key
+Appendix 2: Translations of Each Key
 
 估计没什么人看这个软件，就先省略了。
 
